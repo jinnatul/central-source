@@ -20,7 +20,7 @@ const userRoleMaps = sequelize.define(
   },
   {
     timestamps: true,
-    SCHEMA: process.env.SCHEMA,
+    schema: process.env.SCHEMA,
     createdAt: 'created_at',
     updatedAt: 'updated_at',
   }
